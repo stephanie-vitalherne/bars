@@ -14,7 +14,7 @@ const HorizontalMargin = styled.span<MarginerProps>`
 
 const VerticalMargin = styled.span<MarginerProps>`
   display: flex;
-  min-width: ${({ margin }) =>
+  min-height: ${({ margin }) =>
     typeof margin === "string" ? margin : `${margin}px`};
 `;
 
