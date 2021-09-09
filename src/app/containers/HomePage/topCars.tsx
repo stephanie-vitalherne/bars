@@ -77,7 +77,7 @@ export function TopCars() {
     <Car {...testCar2} />,
   ];
 
-  const numOfDots = isMobile ? cars.length : Math.ceil(cars.length / 3);
+  const numOfDots = isMobile ? cars.length : Math.ceil(cars.length / 2);
 
   return (
     <TopCarsContainer>
